@@ -7,9 +7,10 @@ export const Home: React.FC = observer(() => {
         <div className='App'>
             <header className='App-header'>
                 <img src={logo} className='App-logo' alt='logo' />
+                <p>react-typescript-mobx-router</p>
+                <p>my favorite client setup</p>
                 <p>
-                    {mainStore.count} Edit <code>src/App.tsx</code> and save to
-                    reload.
+                    MobX test {':)'} {mainStore.count}
                 </p>
                 <button onClick={() => mainStore.countUp()}>count ++</button>
                 <a
