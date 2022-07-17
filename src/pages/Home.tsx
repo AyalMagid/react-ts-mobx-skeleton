@@ -1,7 +1,8 @@
 import { observer } from 'mobx-react-lite';
 import logo from '../logo.svg';
 import { mainStore } from '../stores/MainStore';
-const d = 'd';
+
+const a = 2;
 
 export const Home: React.FC = observer(() => {
     return (
